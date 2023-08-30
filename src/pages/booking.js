@@ -83,6 +83,7 @@ export default function Booking() {
                                 onChange={(event) => {
                                     setRoom(event.target.value);
                                 }}
+                                disabled
                             />
                         </div>
                         <div className="mb-3">
